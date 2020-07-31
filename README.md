@@ -1,3 +1,4 @@
+# all code is from https://github.com/CarnegieTechnologies/gallery_saver
 # image_saver for Flutter ios
 
 Saves images and videos from temporary file to album. 
