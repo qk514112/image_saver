@@ -1,21 +1,3 @@
-# image_saver for Flutter ios
-
-Saves images and videos from temporary file to album. 
-Both images and videos will be visible in iOS Photos.
-
-## Installation
-
-First, add `image_saver` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
-
-### iOS
-
-Add the following keys to your _Info.plist_ file, located in `<project root>/ios/Runner/Info.plist`:
-
-* `NSPhotoLibraryUsageDescription` - describe why your app needs permission for the photo library. This is called _Privacy - Photo Library Usage Description_ in the visual editor.
-
-### Example
-
-``` dart
 import 'package:flutter/material.dart';
 import 'package:image_saver/image_saver.dart';
 import 'package:dio/dio.dart';
@@ -84,4 +66,3 @@ class _MyHomePageState extends State<MyHomePage> {
     print(result);
   }
 }
-```
